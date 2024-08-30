@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court Order Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Food Court Order Management System</h1>
+    <div id="food-court">
+        <div class="food-stall">
+            <h2>Stall 1 - Vegetarian</h2>
+            <ul>
+                <li>
+                    <img src="https://imgs.search.brave.com/x6uxKUj-TYdG48JDHfgLx_qGZg8hQdXtPQh9rLie7Hc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bXlnaW5nZXJnYXJs/aWNraXRjaGVuLmNv/bS9pbWFnZXMvODAw/cHgvODAwcHgtcGFu/ZWVyLW1hbmNodXJp/YW4tMi5qcGc" alt="Paneer Manchuri" class="food-img">
+                    <span class="item-name">Paneer Manchuri</span> 
+                    <span class="item-price">Rs 60.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/bk2_Fc-6ECvM0W8xPZLcXzMFpbcNnPxLM9gaYiuRCLA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzAxLzcyLzI0/LzM2MF9GXzgwMTcy/MjQxMF9GZ1pZS0xZ/MHlQRFFSVXIwNWd4/MDV3NmdpN051S0xX/RC5qcGc" alt="Gobi Manchuri" class="food-img">
+                    <span class="item-name">Gobi Manchuri</span> 
+                    <span class="item-price">Rs 50.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/QtVK3CwxfKcyNp4GPyvFPpDcMnpwoda6X8NRTMJ2aaE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zaHdl/dGFpbnRoZWtpdGNo/ZW4uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAzL2No/aW5lc2UtdmVnZXRh/YmxlLW5vb2RsZXMu/anBn" alt="Veg Noodles" class="food-img">
+                    <span class="item-name">Veg Noodles</span> 
+                    <span class="item-price">Rs 60.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/Rkl6E-kqUoTIgEfzVo4oG7ibJJCCV_sUQF8TCPslB3k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbGF5/c3dlbGx3aXRoYnV0/dGVyLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wOC9S/b2FzdGVkLVZlZ2V0/YWJsZS1TaGVldC1Q/YW4tU2hhd2FybWEt/MTctOTYweDE0NDAu/anBn" alt="Veg Shawarma" class="food-img">
+                    <span class="item-name">Veg Shawarma</span> 
+                    <span class="item-price">Rs 55.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/mua4sgb-PUaEiosJsdjaYIJ0HoJ-c0b7U0k-E0Uk-h0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDIy/LzA5LzEzL2Rpbmlu/Zy96cy1wYW5lZXIt/dGlra2EvbWVybGlu/XzIxMzExMjc2NF83/N2NmNzdhNC0xMTA4/LTRiYTktYjk4Yy0w/NWExNzJhZmJhZDgt/YXJ0aWNsZUxhcmdl/LmpwZz93aWR0aD0x/MjgwJnF1YWxpdHk9/NzUmYXV0bz13ZWJw" alt="Paneer Tikka" class="food-img">
+                    <span class="item-name">Paneer Tikka</span> 
+                    <span class="item-price">Rs 85.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="food-stall">
+            <h2>Stall 2 - Non-Vegetarian</h2>
+            <ul>
+                <li>
+                    <img src="https://imgs.search.brave.com/UI6ja2mK4yWs5yN39rira-K9wmaIvu6pE2q5np5vh98/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9pbmRpYW4tc3R5/bGUtdGFuZG9vcmkt/Y2hpY2tlbi1wbGF0/ZS1kYXJrLXN0b25l/XzYwNTkwNS03MDY5/NC5qcGc_c2l6ZT02/MjYmZXh0PWpwZw" alt="Chicken Tandoori" class="food-img">
+                    <span class="item-name">Chicken Tandoori</span> 
+                    <span class="item-price">Rs 100.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/G5VnJGEzEFGgFle0nenxLDL-F4hDtKVVkzhyrbsVFPA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9sYXllcmVkLW11/dHRvbi1iaXJ5YW5p/LXdpdGgtYmxlbmQt/c3BpY2VzXzExNzkx/MzAtNDM3MTgwLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn" alt="Mutton Biryani" class="food-img">
+                    <span class="item-name">Mutton Biryani</span> 
+                    <span class="item-price">Rs 200.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/ErTFRhB_gsQFEdZtnD1UDAzf-lZ-rsNcXwyIHraWR0o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWFzYWxha29yYi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTUvMDQvUXVpY2st/Q2hpY2tlbi1Lb3Jt/YS1WMi5qcGc" alt="Chicken Kurma" class="food-img">
+                    <span class="item-name">Chicken Kurma</span> 
+                    <span class="item-price">Rs 120.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/Ba-g2wxLbWL0zG1lbfux_u3eWZGvLXeVaJT82sWVqUs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hcnRv/ZnBhbGF0ZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTUv/MDMvcHJhd25zLXJl/Y2lwZS5qcGc" alt="Prawns Biryani" class="food-img">
+                    <span class="item-name">Prawns Biryani</span> 
+                    <span class="item-price">Rs 115.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+                <li>
+                    <img src="https://imgs.search.brave.com/Ba-g2wxLbWL0zG1lbfux_u3eWZGvLXeVaJT82sWVqUs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hcnRv/ZnBhbGF0ZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTUv/MDMvcHJhd25zLXJl/Y2lwZS5qcGc" alt="Chicken Lollipop" class="food-img">
+                    <span class="item-name">Chicken Lollipop</span> 
+                    <span class="item-price">Rs 70.00</span>
+                    <button class="add-to-cart">Order</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <div id="cart-total">Total: Rs <span id="total-amount">0.00</span></div>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+/* Style for the Food Court System with images */
+/* Style for the Food Court System with images */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F0F2F5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.8rem;
+    color: #3498DB;
+    text-transform: uppercase;
+}
+
+#food-court {
+    display: flex;
+    justify-content: space-between; /* Adjust to space the stalls evenly */
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.food-stall {
+    width: 45%; /* Adjust width as needed to fit side by side */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 20px 0; /* Adjust margin to ensure proper spacing */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-stall:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.food-stall h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2C3E50;
+}
+
+.food-stall ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.food-stall li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.food-stall li:hover {
+    background-color: #D5DBDB;
+}
+
+.food-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #34495E;
+    flex-grow: 1;
+}
+
+.food-stall li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.item-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #27AE60;
+    margin-right: 20px; /* Added margin-right to increase space between price and button */
+}
+
+.food-stall button {
+    background-color: #27AE60;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+
+#cart {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#cart h2 {
+    font-size: 2.2rem;
+    color: #2C3E50;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+#cart-items li button {
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#cart-items li button:hover {
+    background-color: #C0392B;
+}
+
+#cart-total {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #27AE60;
+    text-align: center;
+}
+
+#checkout {
+    background-color: #E67E22;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+    transition: background-color 0.3s ease;
+}
+
+#checkout:hover {
+    background-color: #D35400;
+}
+
+</style>
+
+</style>
+<script>
+    // Define the menu items
+const menu = [
+	{name: 'Panner Manchuri', price: 60.00},
+	{name: 'Gobi Manchuri', price: 50.00},
+	{name: 'Veg Noodles', price: 60.00},
+    {name: 'Veg  Sharwarma', price: 55.00},
+    {name: 'Panner Tikka', price: 85.00},
+    {name: 'Mushroom Garlic', price: 75.00},
+    {name: 'Mushroon Soup', price: 80.00},
+    {name: 'Manchow Soup', price: 55.00},
+	{name: 'Chicken tandoori', price: 100.00},
+	{name: 'Mutton biryanni', price: 200.00},
+	{name: 'Ckicken kurma', price: 120.00},
+    {name: 'Chicken Biryanni', price: 150.00},
+    {name: 'Chinese Chopsuey', price: 125.00},
+    {name: 'Egg Noodles', price: 90.00},
+    {name: 'Prawns Biryanni', price: 115.00},
+    {name: 'Chicken Lolipop', price: 70.00},
+];
+
+// Get references to the HTML elements
+const cartItemsList = document.querySelector('#cart-items');
+const cartTotalAmount = document.querySelector('#total-amount');
+const checkoutButton = document.querySelector('#checkout');
+
+// Define the cart object
+const cart = {
+	items: [],
+	total: 0,
+	addItem: function(item) {
+		this.items.push(item);
+		this.total += item.price;
+	},
+	removeItem: function(index) {
+		this.total -= this.items[index].price;
+		this.items.splice(index, 1);
+	},
+	updateTotal: function() {
+		cartTotalAmount.textContent = this.total.toFixed(2);
+	},
+	renderCart: function() {
+		cartItemsList.innerHTML = '';
+		this.items.forEach((item, index) => {
+			const li = document.createElement('li');
+			li.textContent = `${item.name} - Rs ${item.price.toFixed(2)}`;
+
+			const removeButton = document.createElement('button');
+			removeButton.textContent = 'Remove';
+			removeButton.addEventListener('click', () => {
+				this.removeItem(index);
+				this.renderCart();
+			});
+			li.appendChild(removeButton);
+			cartItemsList.appendChild(li);
+		});
+    },
+	checkout: function() {
+		alert(`Your order total is Rs ${this.total.toFixed(2)}. Thank you for your order!`);
+		this.items = [];
+		this.total = 0;
+		this.updateTotal();
+		this.renderCart();
+	}
+};
+
+// Add event listeners to the add-to-cart buttons
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+addToCartButtons.forEach((button, index) => {
+	button.addEventListener('click', () => {
+		const item = menu[index];
+		cart.addItem(item);
+		cart.updateTotal();
+		cart.renderCart();
+	});
+});
+
+// Add event listener to the checkout button
+checkoutButton.addEventListener('click', () => {
+	cart.checkout();
+});
+</script>
